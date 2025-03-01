@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.Contenedor{
+    background-image: url('https://www.xtrafondos.com/wallpapers/atardecer-en-la-playa-9102.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    
+    
+    width: 100vW;
+    height: 100vh;
+    text-align: center;
+    z-index: 1;
+}
+
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: o.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
